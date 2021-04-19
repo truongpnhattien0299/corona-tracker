@@ -14,6 +14,9 @@ function Chart({ data: { confirmed, recovered, deaths }, country }) {
         }
         fetchAPI();
     }, []);
+
+    // console.log(dailyData);
+
     const lineChart = (
         dailyData[0]
             ? (<Line
@@ -24,7 +27,8 @@ function Chart({ data: { confirmed, recovered, deaths }, country }) {
                         label: 'Bị Nhiễm',
                         borderColor: '#3333ff',
                         fill: true,
-                    }, {
+                    },
+                    {
                         data: dailyData.map(({ deaths }) => deaths),
                         label: 'Tử vong',
                         borderColor: 'red',
