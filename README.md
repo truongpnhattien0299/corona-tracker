@@ -1,5 +1,5 @@
 # Chạy ứng dụng
-### `npm i && nmp start`
+### `npm i && npm start`
 
 # Getting Started with Create React App
 
