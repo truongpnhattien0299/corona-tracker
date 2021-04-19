@@ -1,4 +1,4 @@
-# Chạy ứng dụng
+# Tutorial
 ### `npm i && npm start`
 
 # Getting Started with Create React App
